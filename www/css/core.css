@@ -1,0 +1,42 @@
+﻿body {
+	color: #fff;
+	background-color: rgba(80%, 20%, 20%, .80); /*#c33;*/
+	text-transform: uppercase;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	width: 100%;
+	margin: 0;
+	font-size: 12em;
+	cursor: pointer;
+}
+
+.floating-action {
+	z-index: 30;
+	position: fixed;
+	bottom: 3%;
+	right: 2%;
+	background-position: center center;
+	background-repeat: repeat;
+	height: 148px;
+	width: 148px;
+	border-radius: 50%;
+	background-color: rgba(3, 155, 225, 0.75);
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.65);
+	-moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.65);
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.65);
+}
+
+	.floating-action:active {
+		box-shadow: none;
+		background-color: rgba(3, 155, 225, 0.85);
+	}
+
+	.floating-action:hover {
+		background-color: rgba(3, 155, 225, 0.95);
+	}
+
+	.floating-action.next {
+		background-image: url("../img/ic_navigate_next_black_48dp.png");
+	}
